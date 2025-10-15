@@ -1,0 +1,49 @@
+Box:
+    PROS​:
+        -User-Friendly Interface: tool is already used by and accessible to most  business users. Easy sharing and collaboration.​
+        -Automation Anywhere Box package is available to download or upload files from and into Box​
+        -Security & Compliance: P3, P4 folder security has been reviewed by UCOP SecOps for compensating controls.​
+        -Version Control & Audit Trails: Built-in versioning and detailed activity logs.
+
+    CONS​:
+        -Performance: May not be ideal for high-throughput or latency-sensitive applications.​
+        -Limited Automation Anywhere Box package actions. Currently only able to upload or download a file into Box. Any other operations require custom solution through Python SDK.
+
+Peoplesoft File System
+    PROS​:
+        -Tool is already used by Peoplesoft DevOps to receive incoming docs via FileZilla​
+        -Integrated with business workflow​
+        -Secure and limited role-based access
+    CONS​:
+
+        -RPA bot update files in Peoplesoft that may cause pay related issues​
+        -Accessibility: requires business users to FTP/SFTP the input file via FileZilla​
+        -Usage: Not designed for general document storage or collaboration​
+        -Heavily restricted. Not easy for file upload​
+        -Integration: Not easily integrate with external systems or applications. Example: OnBase, Salesforce, Servicenow, Tableau.
+
+Secured File System in Appstream
+    PROS​:
+        -Does not require API or Automation Anywhere package to manage the upload or download of files.​
+        -Fast access to the folders.​
+        -Scalability: Scalable in size and usage. SCI manages the drives​
+        -Security: Only accessible by AA creators and AA sys admins i.e. users on EC2 servers
+    CONS​:
+        -Data input: Need to develop a custom solution to ingest files from business users into mapped drive. Potential solutions include (but not limited to): ​
+        -Requiring business users to FTP/SFTP the input file into mapped drive.​
+        -Developing a bot task in AA to sweep file from a Box folder into mapped drive.​
+        -Granting business user an access to mapped drive in Appstream. 
+
+AWS S3 Bucket:
+    PROS:​
+        -Scalability & Performance: Extremely scalable and performant for storing large volumes of data.​
+        -Developer Flexibility: Full control via APIs, SDKs, and integration with other AWS services (Lambda, CloudFront, etc.).​
+        -Security: Strong encryption, IAM policies, and compliance support (though setup is more manual)
+    CONS​
+
+        -Complex Setup: Requires more technical expertise and SCI to configure access, security, and integrations.​
+        -No Native Collaboration Tools: Lacks built-in sharing, commenting, or workflow features.​
+        -UI Limitations: AWS Console is functional but not optimized for non-technical users or document-centric workflows.​
+        -Data input: Need to develop a custom solution to ingest files from business users into mapped drive. Potential solutions include (but not limited to): ​
+        -Requiring business users to FTP/SFTP the input file into the bucket​
+        -Developing a bot task in AA to sweep file from a Box folder into the bucket. 

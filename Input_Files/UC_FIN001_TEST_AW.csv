@@ -1,0 +1,151 @@
+﻿Business Unit,Employee ID,Employee Record,Employee Name,Pay Group,Pay Period End Date,Paycheck Issue Date,Employee Type,Plan Type,Benefit Plan,Deduction Code,Deduction Code Descr,Deduction Classification,Current Deduction,Payback Amount,Refund Amount,Not Taken,Reason,Calculated Base,Paycheck Status,Paycheck Option,Off Cycle
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,3/30/2024,4/10/2024,Hourly,Life,BLIF,BLIF,Basic Life,Nontaxable Benefit,3.92,0.00,0.00,0.00,,50000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,3/30/2024,4/10/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,85.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,3/30/2024,4/10/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,132.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.24,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,218.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,425.41,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,661.75,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/13/2024,4/24/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,864.43,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Basic Disability,BASDIS,STD,Basic Disability,Nontaxable Benefit,8.04,0.00,0.00,0.00,,1454.55,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Dental,DPPO,DPPOBT,Delta Dental PPO,Nontaxable Benefit,92.90,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Nontaxable Benefit,833.00,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.24,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Life,BLIF,BLIF,Basic Life,Nontaxable Benefit,3.92,0.00,0.00,0.00,,50000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,218.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,566.33,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,364.07,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Vision,VSP,VSPBT,Vision Service Plan,Nontaxable Benefit,10.87,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,4/27/2024,5/8/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,861.13,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Basic Disability,BASDIS,STD,Basic Disability,Nontaxable Benefit,8.04,0.00,0.00,0.00,,1454.55,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Dental,DPPO,DPPOBT,Delta Dental PPO,Nontaxable Benefit,185.80,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,17.00,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,56.16,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.23,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,29.92,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Life,BLIF,BLIF,Basic Life,Nontaxable Benefit,3.92,0.00,0.00,0.00,,50000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,545.40,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,2463.72,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,57.08,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,451.69,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,290.38,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Vision,VSP,VSPBT,Vision Service Plan,Nontaxable Benefit,21.74,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,86.50,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/11/2024,5/22/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,60.64,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,478.98,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Basic Disability,BASDIS,STD,Basic Disability,Nontaxable Benefit,8.04,0.00,0.00,0.00,,1454.55,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Dental,DPPO,DPPOBT,Delta Dental PPO,Nontaxable Benefit,92.90,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.24,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Life,BLIF,BLIF,Basic Life,Nontaxable Benefit,3.92,0.00,0.00,0.00,,50000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,545.40,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,376.46,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,242.01,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Vision,VSP,VSPBT,Vision Service Plan,Nontaxable Benefit,10.87,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,5/25/2024,6/5/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,1210.99,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.23,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,218.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,640.43,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,411.71,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/8/2024,6/18/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,739.47,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Basic Disability,BASDIS,STD,Basic Disability,Nontaxable Benefit,8.04,0.00,0.00,0.00,,1454.55,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Dental,DPPO,DPPOBT,Delta Dental PPO,Nontaxable Benefit,92.90,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.24,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Life,BLIF,BLIF,Basic Life,Nontaxable Benefit,3.92,0.00,0.00,0.00,,50000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,218.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,541.82,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,348.31,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Vision,VSP,VSPBT,Vision Service Plan,Nontaxable Benefit,10.87,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,6/22/2024,7/3/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,964.91,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.23,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,218.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,650.54,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,403.78,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/6/2024,7/17/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/20/2024,7/31/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,755.87,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/20/2024,7/31/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,517.01,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,7/20/2024,7/31/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,320.90,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,987.55,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Basic Disability,BASDIS,STD,Basic Disability,Nontaxable Benefit,8.04,0.00,0.00,0.00,,1454.55,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Dental,DPPO,DPPOBT,Delta Dental PPO,Nontaxable Benefit,92.90,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.24,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Life,BLIF,BLIF,Basic Life,Nontaxable Benefit,3.92,0.00,0.00,0.00,,50000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,218.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,645.05,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,400.37,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Vision,VSP,VSPBT,Vision Service Plan,Nontaxable Benefit,10.87,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/3/2024,8/14/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,964.29,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.23,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,218.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,390.13,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,628.54,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/17/2024,8/28/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,403(b),403VOL,403BPT,403B Voluntary Plan,Before-Tax,185.99,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Basic Disability,BASDIS,STD,Basic Disability,Nontaxable Benefit,8.04,0.00,0.00,0.00,,1454.55,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Dental,DPPO,DPPOBT,Delta Dental PPO,Nontaxable Benefit,92.90,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Employee & Dependent AD&D,ADDS,PADD,Prudential AD&D Dependent Ins.,After-Tax,4.25,0.00,0.00,0.00,,500000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Exp Dependent Life - Spouse/DP,EDLS01,DLIFSP,Expanded Dep Life - Spouse,After-Tax,14.04,0.00,0.00,0.00,,67000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Health Savings Account,HSA,HSABT,Health Savings Accts,Before-Tax,188.24,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Legal Insurance,ARAG,ARAG,ARAG Legal Plan,After-Tax,7.48,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Life,BLIF,BLIF,Basic Life,Nontaxable Benefit,3.92,0.00,0.00,0.00,,50000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Nontaxable Benefit,615.93,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Medical,BHSP,HSP,Health Savings Plan,Before-Tax,218.16,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Supplemental Life,SL1X,SLAT,Supplemental Life,After-Tax,14.27,0.00,0.00,0.00,,134000.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Before-Tax,98.35,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,UC Retirement Plan,T13DHX,UCRPBT,UC Retirement Plan,Nontaxable Benefit,158.45,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Vision,VSP,VSPBT,Vision Service Plan,Nontaxable Benefit,10.87,0.00,0.00,0.00,,0.00,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Voluntary LongTerm Disability,VLTD02,VOLLTD,Voluntary Long-Term Disability,After-Tax,43.25,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N
+IRMED,10720905,0,"Araiza,Yuanyi",IB7,8/31/2024,9/11/2024,Hourly,Voluntary ShortTerm Disability,VOLSTD,VOLSTD,Voluntary ShortTerm Disability,After-Tax,30.32,0.00,0.00,0.00,,8916.66,Confirmed,Advice,N

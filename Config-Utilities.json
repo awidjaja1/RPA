@@ -1,0 +1,5 @@
+{
+    "UCPathSupportEmail":"UCPC-IT-RPA@ucop.edu",
+    "EmailSMTPHost":"ucpath-smtp-prod-6944b56a029cc8b8.elb.us-west-2.amazonaws.com",
+    "SMTPPort":587
+}
