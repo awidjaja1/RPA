@@ -1,0 +1,255 @@
+Sub Team_Register()
+Attribute Team_Register.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Team_Register Macro
+' Team Register updated for CSV export 6/5/24
+' Version2.0 7/2/25 by VAM
+'   Set Variable to count rows
+' Version 2.1 7/10/25 by VAM
+'   Remove zero value from data
+' Version 2.2 8/22/25 by VAM
+' Relace all sheet reference to "ActiveSheet"
+'   the macro no can now be run on any sheet. Doesn't have to be the first Sheet in Book
+' fix bug that occures when Previous Transaction Number has a positive Amount
+'   Leads to replacing several Invoice numbers with blanks
+'Version 2.2.1 9/11/25 by VAM
+'   updated formating of subtotal rows
+
+    Dim TRCount As Long
+    Dim PTCount As Long
+
+    TRCount = Cells(ActiveSheet.Rows.Count, 1).End(xlUp).row
+    PTCount = Cells(ActiveSheet.Rows.Count, 9).End(xlUp).row
+    
+    
+    Application.ScreenUpdating = False
+
+    Cells.Select
+    Cells.EntireColumn.AutoFit
+    Columns("B:B").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("C:C").Select
+    Selection.Cut
+    Columns("B:B").Select
+    Selection.Insert Shift:=xlToRight
+    Range("B1").Select
+    ActiveCell.FormulaR1C1 = "Invoice #"
+    Columns("D:D").Select
+    Selection.Delete Shift:=xlToLeft
+    Selection.Delete Shift:=xlToLeft
+    Range("D1").Select
+    ActiveCell.FormulaR1C1 = "EE ID"
+    Columns("F:F").Select
+    Selection.Delete Shift:=xlToLeft
+    Selection.Style = "Comma"
+    Range("F1").Select
+    ActiveCell.FormulaR1C1 = "Amount"
+    Columns("G:G").Select
+    Selection.Delete Shift:=xlToLeft
+    Selection.Cut
+    Columns("B:B").Select
+    Selection.Insert Shift:=xlToRight
+    Range("B1").Select
+    ActiveCell.FormulaR1C1 = "Invoice Date"
+    Columns("D:D").Select
+    Selection.Cut
+    Columns("F:F").Select
+    Selection.Insert Shift:=xlToRight
+    Columns("F:F").Select
+    With Selection
+        .HorizontalAlignment = xlLeft
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    Columns("H:H").Select
+    Selection.Delete Shift:=xlToLeft
+    Selection.ColumnWidth = 16.67
+    Range("A1").Select
+    ActiveCell.FormulaR1C1 = "Description"
+    Range("A1:I1").Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorAccent1
+        .TintAndShade = 0.799981688894314
+        .PatternTintAndShade = 0
+    End With
+    Selection.Font.Bold = True
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    Selection.Borders(xlEdgeLeft).LineStyle = xlNone
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlEdgeRight).LineStyle = xlNone
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("A1").Select
+    Selection.AutoFilter
+    Cells.Select
+    Cells.EntireColumn.AutoFit
+    Range("A3").Select
+    Columns("A:A").ColumnWidth = 46.22
+    Columns("H:H").ColumnWidth = 18.78
+    Range("A1").Select
+    TRCount = Cells(ActiveSheet.Rows.Count, 7).End(xlUp).row
+    ActiveSheet.AutoFilter.Sort. _
+        SortFields.Clear
+    ActiveSheet.AutoFilter.Sort. _
+        SortFields.Add2 Key:=Range("G1:G" & TRCount), SortOn:=xlSortOnValues, Order:= _
+        xlAscending, DataOption:=xlSortNormal
+    With ActiveSheet.AutoFilter. _
+        Sort
+        .Header = xlYes
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .SortMethod = xlPinYin
+        .Apply
+    End With
+    ActiveWindow.SmallScroll Down:=0
+    
+     ' Loop to remove zero values V2.1
+    TRCount = Cells(ActiveSheet.Rows.Count, 7).End(xlUp).row
+    Dim j As Long
+    For j = TRCount To 2 Step -1
+        If Cells(j, 7).Value = 0 Then
+            Range("C" & j).EntireRow.Delete
+        End If
+    Next j
+    
+    ' Resort based on Previous transaction Number v2.2
+    ActiveSheet.AutoFilter.Sort. _
+        SortFields.Clear
+    ActiveSheet.AutoFilter.Sort. _
+        SortFields.Add2 Key:=Range("I1:I" & TRCount), SortOn:=xlSortOnValues, Order:= _
+        xlAscending, DataOption:=xlSortNormal
+    With ActiveSheet.AutoFilter. _
+        Sort
+        .Header = xlYes
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .SortMethod = xlPinYin
+        .Apply
+    End With
+    
+    ' Subtotal V2.0
+    PTCount = Cells(ActiveSheet.Rows.Count, 9).End(xlUp).row
+    
+    If PTCount > 1 Then 'If there are no Previous transaction number PTCount = 1 and this step would not be nessesary
+        Range("I2:I" & PTCount).Select
+        Selection.Copy
+        Range("C2").Select
+        Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+            :=False, Transpose:=False
+    End If
+    
+    TRCount = Cells(ActiveSheet.Rows.Count, 3).End(xlUp).row
+    ActiveSheet.AutoFilter.Sort. _
+        SortFields.Clear
+    ActiveSheet.AutoFilter.Sort. _
+        SortFields.Add2 Key:=Range("C1:C" & TRCount), SortOn:=xlSortOnValues, Order:= _
+        xlAscending, DataOption:=xlSortNormal
+    With ActiveSheet.AutoFilter. _
+        Sort
+        .Header = xlYes
+        .Orientation = xlTopToBottom
+        .SortMethod = xlPinYin
+        .Apply
+    End With
+    
+    Range("C1:G" & TRCount).Select
+    Selection.Subtotal GroupBy:=1, Function:=xlSum, TotalList:=Array(5), _
+        Replace:=True, PageBreaks:=False, SummaryBelowData:=True
+    
+     ' Loop to format Subtotal Rows V2.0
+     '
+    TRCount = Cells(ActiveSheet.Rows.Count, 3).End(xlUp).row
+    Dim i As Long
+    For i = 2 To TRCount
+        If InStr(1, Cells(i, 3).Value, "Total", vbTextCompare) > 0 Then
+            Range("C" & i & ":G" & i).Font.Bold = True
+            Range("G" & i).Select
+                With Selection.Borders(xlEdgeTop)
+                    .LineStyle = xlContinuous
+                    .Weight = xlThin
+                    .Color = RGB(0, 0, 0)
+                End With
+                
+                With Selection.Borders(xlEdgeBottom)
+                    .LineStyle = xlContinuous
+                    .Weight = xlThin
+                    .Color = RGB(0, 0, 0)
+                End With
+                       
+            If i = TRCount Then
+                Range("C" & i & ":G" & i).Select
+                Selection.Interior.Color = RGB(192, 230, 245)
+            End If
+        End If
+    Next i
+    
+    'Set up Pmt & Applied calc V2.0
+    TRCount = Cells(ActiveSheet.Rows.Count, 3).End(xlUp).row
+    
+    Range("F" & TRCount + 2).Select
+    ActiveCell.FormulaR1C1 = "Pmts "
+    Range("F" & TRCount + 3).Select
+    ActiveCell.FormulaR1C1 = "Applied "
+    Range("F" & TRCount + 4).Select
+    ActiveCell.FormulaR1C1 = "Balance "
+    Range("G" & TRCount + 2 & ":G" & TRCount + 4).Select
+    Selection.Style = "Comma"
+    Range("F" & TRCount + 2 & ":G" & TRCount + 4).Select
+    With Selection.Interior
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        .ThemeColor = xlThemeColorAccent1
+        .TintAndShade = 0.799981688894314
+        .PatternTintAndShade = 0
+    End With
+    Selection.Font.Bold = True
+    Range("F" & TRCount + 2 & ":G" & TRCount + 4).Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    Selection.Borders(xlEdgeLeft).LineStyle = xlNone
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlEdgeRight).LineStyle = xlNone
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("G" & TRCount + 2).Select
+    ActiveCell.FormulaR1C1 = "0"
+    Range("G" & TRCount + 3).Select
+    ActiveCell.FormulaR1C1 = "=R[-3]C"
+    Range("G" & TRCount + 4).Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-2]C-R[-1]C"
+    
+     Application.ScreenUpdating = True
+      
+    End Sub
