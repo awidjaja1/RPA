@@ -1,6 +1,11 @@
 from box_sdk_gen import BoxClient, BoxCCGAuth, CCGConfig,FolderMini
-from box_sdk_gen.managers.uploads import UploadFileAttributes, UploadFileAttributesParentField, UploadFileVersionAttributes
+from box_sdk_gen.managers.uploads import (
+    UploadFileAttributes, 
+    UploadFileAttributesParentField, 
+    UploadFileVersionAttributes,
+    PreflightFileUploadCheckParent)
 import os
+from pathlib import Path
 
 def uploadFile(credList):
     """
@@ -157,3 +162,75 @@ def checkFiles(credList):
 
     return listFileNames
 
+def sweepLocalFilestoBox(credList):
+    """
+    This function is used to sweep/move (or sweep) all local files within a Box folder to a destination Box folder.
+
+    Args:
+    credList (list):   The list must have the following data in the specific index: 
+    # 0 - client ID (string)
+    # 1 - client secret (string)
+    # 2 - Box folder id which the file to be moved to (string)
+    # 3 - Local folder path (string)
+    
+    Returns:
+    a string "Success" indicating that transaction is successful. Otherwise it returns exception message (string).
+
+    CHANGE NOTES:
+    On 6/10/2026 the following are added: 
+    - Added client.uploads.preflight_file_upload_check to check for conflict
+    - Added Except BoxAPIError block to catch any conflict then add the version attribute before attempt to upload the file
+    - import BoxAPIError, PreflightFileUploadCheckParent
+    """
+    client_id = credList[0]
+    client_secret = credList[1]
+    destinationFolderId = credList[2]
+    localfolderpath = Path(credList[3])
+    try:
+        if not localfolderpath.exists():
+            return f"Error: Local folder does not exist: {localfolderpath}"
+
+        if not localfolderpath.is_dir():
+            return f"Error: Path is not a folder: {localfolderpath}"
+        ccg_config = CCGConfig(
+            client_id=client_id,
+            client_secret=client_secret,
+            enterprise_id="2384924"
+        )
+        auth = BoxCCGAuth(config=ccg_config) #with CCG
+        client = BoxClient(auth=auth)
+        #box_folder = client.folders.get_folder_by_id(destinationFolderId)
+        for path in localfolderpath.iterdir():
+            
+            if not path.is_file():
+                continue
+
+            fileName = path.name
+            fileSize = path.stat().st_size
+            try:
+                with open(path,"rb") as f:
+                    try:
+                        #check for conflict
+                        client.uploads.preflight_file_upload_check(
+                            name=fileName,
+                            size=fileSize,
+                            parent=PreflightFileUploadCheckParent(id=destinationFolderId),
+                        )
+                        # setting attributes
+                        attrs=UploadFileAttributes(name=fileName, parent=UploadFileAttributesParentField(id=destinationFolderId))
+                        # upload the file
+                        client.uploads.upload_file(attrs,f)
+                    except Exception as boxError:
+                        # When the file is in a conflict, and error is thrown, create version attributes and pass the version attribute.
+                        response_info = getattr(boxError,"response_info",None)
+                        if response_info and response_info.code =="item_name_in_use":
+                            existingFileId = response_info.context_info["conflicts"]["id"]
+                            with open(path,"rb") as fileStream:
+                                versionAttrs = UploadFileVersionAttributes(name=fileName)
+                                client.uploads.upload_file_version(existingFileId,versionAttrs,fileStream)
+
+            except Exception as e:
+                return(str(e))
+        return("Success")
+    except Exception as e:
+        return(str(e))

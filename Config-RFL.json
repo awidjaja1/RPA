@@ -12,10 +12,13 @@
         "BoxClientSecret":"RErCQFcJivFGcAg3bvMRLGLMK5hCdEj6",
         "BoxEnterpriseID":"2384924",
         "BoxFolderPath":"#UCPC-RPA/DEV/RFL",
-        "BoxInputFolderPath":"#UCPC-RPA/PROD/RFL/Dev File Drop",
+        "BoxInputFolderPath":"#UCPC-RPA/DEV/RFL/Dev File Drop",
+        "BoxRPAReconRunBotLogsPath":"RPA Recon/BOT Run Logs",
         "BoxFileDropFolderID":"349442958803",
         "BoxInputFolderID":"349441206902",
+        "BoxRPAReconPendingReconID":"332718729183",
         "BotFolderPath":"C:\\RPA\\RFL\\Logs",
+        "BotLogRootFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\",
         "BotLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH",
         "ErrorLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Logs",
         "ExceptionLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Exception",
@@ -39,8 +42,8 @@
         "AuthType":"CCG",
         "NewFileLocation":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Output",
         "ArchiveFolderLocation":"V:\\RFL",
-        "Version":"1.8",
-        "LastUpdated":"03/09/2026-15:38 PM PT"
+        "Version":"2.1",
+        "LastUpdated":"06/22/2026-13:06 PM PT"
     },
     "UAT":{
         "PeopleSoftURL":"https://ucphrut1.ps.universityofcalifornia.edu/psp/ucphrut1/EMPLOYEE/HRMS/",
@@ -55,10 +58,13 @@
         "BoxClientSecret":"RErCQFcJivFGcAg3bvMRLGLMK5hCdEj6",
         "BoxEnterpriseID":"2384924",
         "BoxFolderPath":"#UCPC-RPA/DEV/RFL",
-        "BoxInputFolderPath":"#UCPC-RPA/PROD/RFL/Dev File Drop",
+        "BoxInputFolderPath":"#UCPC-RPA/DEV/RFL/Dev File Drop",
+        "BoxRPAReconRunBotLogsPath":"RPA Recon/BOT Run Logs",
         "BoxFileDropFolderID":"349442958803",
         "BoxInputFolderID":"349441206902",
+        "BoxRPAReconPendingReconID":"332718729183",
         "BotFolderPath":"C:/RPA/RFL/Logs/",
+        "BotLogRootFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\",
         "BotLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH",
         "ErrorLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Logs",
         "ExceptionLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Exception",
@@ -82,8 +88,8 @@
         "AuthType":"CCG",
         "NewFileLocation":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Output",
         "ArchiveFolderLocation":"V:\\RFL",
-        "Version":"1.8",
-        "LastUpdated":"03/09/2026-15:38 PM PT"
+        "Version":"2.1",
+        "LastUpdated":"06/22/2026-13:09 PM PT"
     },
     "PROD":{
         "PeopleSoftURL":"https://ucphrprd.ps.universityofcalifornia.edu/psp/ucphrprd/EMPLOYEE/HRMS/",
@@ -99,9 +105,12 @@
         "BoxEnterpriseID":"2384924",
         "BoxFolderPath":"#UCPC-RPA/PROD/RFL",
         "BoxInputFolderPath":"#UCPC-RPA/PROD/RFL/PROD File Drop",
+        "BoxRPAReconRunBotLogsPath":"RPA Recon/BOT Run Logs",
         "BoxFileDropFolderID":"349445044359",
         "BoxInputFolderID":"349445471778",
+        "BoxRPAReconPendingReconID":"332718729183",
         "BotFolderPath":"C:/RPA/RFL/Logs/",
+        "BotLogRootFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\",
         "BotLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH",
         "ErrorLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Logs",
         "ExceptionLogFolderPath":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Exception",
@@ -125,8 +134,8 @@
         "AuthType":"CCG",
         "NewFileLocation":"C:\\ProgramData\\AutomationAnywhere\\Bots\\Logs\\RFL-UCPATH\\Output",
         "ArchiveFolderLocation":"V:\\RFL",
-        "Version":"2.0",
-        "LastUpdated":"03/17/2026-09:07 AM PT"
+        "Version":"2.2",
+        "LastUpdated":"06/15/2026-10:46 AM PT"
     }
 
 }
